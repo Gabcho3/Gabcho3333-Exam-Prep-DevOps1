@@ -52,7 +52,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install
     - name: Npm Start
-      run: npm start &&
+      run: npm start &
     - name : Run UI Tests
       run: npm run test:ui
 
